@@ -4,12 +4,6 @@
 > **Hack & Break: Generative AI & Cybersecurity Innovation Challenge**
 > Theme: **Agentic AI** | IIT Bombay
 
-## 📸 Live Dashboard Preview
-![Screenshot_13-3-2026_231049_127 0 0 1](https://github.com/user-attachments/assets/af541606-4cf8-49b4-81d9-e03028033a9a)
-
-
-
-
 > Real-time threat monitoring dashboard — showing live threat events, MITRE ATT&CK mappings, autonomous actions, and AI reasoning traces.
 
 ---
@@ -27,21 +21,7 @@ Security Operations Centers (SOCs) are overwhelmed:
 
 ---
 
-## 💡 Solution: SentinelMind
 
-SentinelMind is an **autonomous AI agent** that monitors, reasons, and responds to cyber threats in real time — without waiting for human intervention.
-
-```
-[System Logs / Network Traffic]
-          ↓
-   [Anomaly Detector]          ← ML-based threat scoring
-          ↓
-  [LLM Reasoning Engine]  ←→  [MITRE ATT&CK Knowledge Base]
-          ↓
-  [Autonomous Response]        ← block_ip | kill_process | isolate_endpoint
-          ↓
-  [Audit Trail + Dashboard]    ← Plain-English explanation for every decision
-```
 
 ---
 
@@ -91,36 +71,6 @@ sentinelmind/
 ├── main.py                 # Main agent pipeline entry point
 ├── config.py               # All configuration and settings
 └── requirements.txt
-```
-
----
-
-## 🚀 Quick Start
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/yourusername/sentinelmind.git
-cd sentinelmind
-
-# 2. Create virtual environment
-python -m venv venv
-venv\Scripts\activate        # Windows
-source venv/bin/activate     # Mac/Linux
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Add your OpenAI API key in config.py
-OPENAI_API_KEY = "your-api-key-here"
-
-# 5. Run the demo (no real logs needed)
-python scripts/demo.py
-
-# 6. Start the API server
-uvicorn api:app --reload --port 8000
-
-# 7. Open the dashboard
-# Open dashboard/index.html in your browser
 ```
 
 ---
