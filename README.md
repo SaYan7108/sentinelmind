@@ -1,12 +1,13 @@
-# 🛡️ SentinelMind
+<img width="1763" height="1173" alt="image" src="https://github.com/user-attachments/assets/28d4bbbe-4e13-4adb-8ce1-14a2770b38c7" /># 🛡️ SentinelMind
 ### Autonomous Cyber Threat Detection & Response using Agentic AI
 
 > **Hack & Break: Generative AI & Cybersecurity Innovation Challenge**
 > Theme: **Agentic AI** | IIT Bombay
 
 ## 📸 Live Dashboard Preview
+![Screenshot_13-3-2026_231049_127 0 0 1](https://github.com/user-attachments/assets/af541606-4cf8-49b4-81d9-e03028033a9a)
 
-![Uploading image.png…]()
+
 
 
 > Real-time threat monitoring dashboard — showing live threat events, MITRE ATT&CK mappings, autonomous actions, and AI reasoning traces.
